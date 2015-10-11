@@ -14,6 +14,7 @@
 		B95071CC1BC4F8B8002E3395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95071CA1BC4F8B8002E3395 /* LaunchScreen.storyboard */; };
 		B95071D71BC4F8B8002E3395 /* Playing_Around_with_xCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95071D61BC4F8B8002E3395 /* Playing_Around_with_xCodeTests.swift */; };
 		B95071E21BC4F8B8002E3395 /* Playing_Around_with_xCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95071E11BC4F8B8002E3395 /* Playing_Around_with_xCodeUITests.swift */; };
+		B9B1719B1BC644D600BE7BEF /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B1719A1BC644D600BE7BEF /* HomeFeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B95071DD1BC4F8B8002E3395 /* Playing Around with xCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playing Around with xCodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95071E11BC4F8B8002E3395 /* Playing_Around_with_xCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing_Around_with_xCodeUITests.swift; sourceTree = "<group>"; };
 		B95071E31BC4F8B8002E3395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B1719A1BC644D600BE7BEF /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B95071C81BC4F8B8002E3395 /* Assets.xcassets */,
 				B95071CA1BC4F8B8002E3395 /* LaunchScreen.storyboard */,
 				B95071CD1BC4F8B8002E3395 /* Info.plist */,
+				B9B1719A1BC644D600BE7BEF /* HomeFeedViewController.swift */,
 			);
 			path = "Playing Around with xCode";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				B95071C41BC4F8B8002E3395 /* ViewController.swift in Sources */,
 				B95071C21BC4F8B8002E3395 /* AppDelegate.swift in Sources */,
+				B9B1719B1BC644D600BE7BEF /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +485,7 @@
 				B95071E81BC4F8B8002E3395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B95071E91BC4F8B8002E3395 /* Build configuration list for PBXNativeTarget "Playing Around with xCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				B95071EB1BC4F8B8002E3395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B95071EC1BC4F8B8002E3395 /* Build configuration list for PBXNativeTarget "Playing Around with xCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				B95071EE1BC4F8B8002E3395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
